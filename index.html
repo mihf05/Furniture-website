@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Website</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logDiv">
+            <a href="#Home">  <h1 class="logo">Furni.</h1></a>
+        </div>
+
+        <div class="navBar" id="navBar">
+            <ul class="navList">
+                <li class="navItems"><a href="#Home" class="navLink">Home</a></li>
+                <li class="navItems"><a href="#About" class="navLink">About</a></li>
+                <li class="navItems"><a href="#Features" class="navLink">Features</a></li>
+                <li class="navItems"><a href="#review" class="navLink">Review</a></li>
+            </ul>
+        </div>
+
+        <div class="searchDiv" id="searchIcon">
+            <i class='bx bx-search icon'></i>
+        </div>
+
+        <div class="searchInput" id="searchInput">
+            <input type="text" placeholder="Search your item..."><i class='bx bx-search icon' id="closeSearch"></i>
+        </div>
+
+        <div class="actionBtn" id="toggleBtn">
+            <i class='bx bx-menu-alt-right icon' ></i>
+        </div>
+    </header>
+
+    <div class="main" id="Home">
+        <div class="mainText">
+            <h1>We help you make modern interior</h1>
+            <p>We will help you to make an elegant  and luxurious interior designed by <br> professional interior designer</p>
+
+            <div class="mainBtn"><a href="#deals"><button type="submit">Explore <i class='bx bx-chevrons-down icon'></i></button></a></div>
+        </div>
+        <div class="bannerDiv">
+            <div class="bottomIcon">
+              <a href=" #deals">  <i class='bx bx-down-arrow-alt icon'></i></a>
+            </div>
+            <img src="./img/3.png" alt="main Image">
+            <div class="socials mainIcons">
+                <i class='bx bxl-meta socialIcon'></i>
+                <i class='bx bxl-twitter socialIcon'></i>
+                <i class='bx bxl-linkedin socialIcon' ></i>
+                <i class='bx bxl-pinterest socialIcon' ></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section container deals grid" id="deals">
+       <div class="introText">
+           <h1>Hot deals for you <img src="./img/fire.png" alt="fire image" class="fireImage"></h1>
+           <p>Online shopping for retail sales direct to customers</p>
+       </div>
+
+       <div class="dealContent">
+        <i class='bx bx-bowl-hot dealIcon'></i>
+           <h6>1.5% cashback</h6>
+           <p>Online shopping for retail sales direct to customers</p>
+       </div>
+       <div class="dealContent">
+        <i class='bx bx-bowl-hot dealIcon'></i>
+           <h6>30-day terms</h6>
+           <p>Online shopping for retail sales direct to customers</p>
+       </div>
+       <div class="dealContent">
+        <i class='bx bx-bowl-hot dealIcon'></i>
+           <h6>Save money</h6>
+           <p>Online shopping for retail sales direct to customers</p>
+       </div>
+    </div>
+    
+
+    <div class="section container about " id="About">
+        <div class="sectionIntro aboutSection">
+            <div class="introDiv">
+                <h1>About Us</h1>
+                <p>At Besnik Consultancy, we take pride our values service, integrity, and excellence.</p>
+            </div>
+
+            <div class="moreBtn">
+                <button type="button">More</button>
+            </div>
+        </div>
+
+        <div class="aboutBody ">
+            <div class="aboutImageDiv grid">
+                <div>
+                    <img src="./img/image1.jpg" alt="chair image">
+                    <img src="./img/image2.jpg" alt="chair image">
+                </div>
+                <div class="push">
+                    <img src="./img/image4.jpg" alt="chair image">
+                    <img src="./img/image3.jpg" alt="chair image">
+                </div>
+            </div>
+            <div class="aboutContent grid">
+                <div class="infor">
+                    <h2>1.</h2>
+                    <h5>Who We Are</h5>
+                    <p>You get a 2 week free trial to kick the smartly tries.</p>
+                </div>
+                <div class="infor">
+                    <h2>2.</h2>
+                    <h5>What Do We Do</h5>
+                    <p>We give you a free course that guides you through the process.</p>
+                </div>
+                <div class="infor">
+                    <h2>3.</h2>
+                    <h5>How Do We Help</h5>
+                    <p>Use our multimedia lecturers, videos, and coaching sessions </p>
+                </div>
+                <div class="infor">
+                    <h2>4.</h2>
+                    <h5>Create Success Story</h5>
+                    <p>With access to online learning resources anyone can transform</p>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+
+    <div class="section container products " id="Features">
+        <div class="sectionIntro">
+            <div class="introDiv">
+                <h1>Products</h1>
+            </div>
+
+            <div class="moreBtn">
+                <button type="button">See More <i class='bx bx-right-arrow-alt icon' ></i></button>
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li class="menuList active">All</li>
+                <li class="menuList">Bed</li>
+                <li class="menuList">Sofa</li>
+                <li class="menuList">Chair</li>
+                <li class="menuList">Light</li>
+            </ul>
+        </div>
+
+        <div class="productItems ">
+            <div class="row1 grid">
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title">Bed side desk</p>
+                    <p class="price">$35.00 <span>$44.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/1.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title">Single seater sofa</p>
+                    <p class="price">$55.00 <span>$66.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/2.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title">Portable seater</p>
+                    <p class="price">$55.00 <span>$47.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/3.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title">Dinning Chair</p>
+                    <p class="price">$55.00 <span>$37.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/7.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title"> Beach  seater</p>
+                    <p class="price">$35.00 <span>$67.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/5.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+               <div class="row1_item">
+                <div class="itemDiv">
+                    <p class="title">Garden  seater</p>
+                    <p class="price">$55.00 <span>$137.00</span></p>
+                </div>
+                <div class="itemImage">
+                    <img src="./img/6.png" alt="image">
+                </div>
+
+                <div class="cartIconDiv">
+                    <i class='bx bxs-cart-alt cartIcon' ></i>
+                </div>
+               </div>
+             
+            </div>
+ 
+            
+        </div>
+
+    </div>
+
+    <div class="section client container" id="review">
+        <div class="intro">
+            <h1>What our happy clients say</h1>
+            <p>File storage made easy - including powerful features you won't find anywhere else. Where you are.</p>
+        </div>
+
+        <div class="swiper clientBody">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="clientImage">
+                        <img src="./img/p1.jpg" alt="Customer Image">
+                    </div>
+                    <div class="review">
+                        <h2>Furni.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat accusamus dignissimos itaque omnis suscipit cupiditate.</p>
+        
+                        <div class="customerDetails">
+                            <h2>Larry Diamond</h2>
+                            <small>Chief Executive officer</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="clientImage">
+                        <img src="./img/p2.jpg" alt="Customer Image">
+                    </div>
+                    <div class="review">
+                        <h2>Furni.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat accusamus dignissimos itaque omnis suscipit cupiditate.</p>
+        
+                        <div class="customerDetails">
+                            <h2>Gek Banaak</h2>
+                            <small>Procurement Officer</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="clientImage">
+                        <img src="./img/p3.jpg" alt="Customer Image">
+                    </div>
+                    <div class="review">
+                        <h2>Furni.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat accusamus dignissimos itaque omnis suscipit cupiditate.</p>
+        
+                        <div class="customerDetails">
+                            <h2>Lina Loes</h2>
+                            <small>Maina Manager</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class=" footer">
+        <div class="footerTop grid">
+            <div>
+                <h4>Start your business today for $0+ state fees.</h4>
+            </div>
+
+            <div class="buttonsDiv">
+                <button type="button" >Get Started</button>
+                <button type="button" class="whiteBtn">Contact State</button>
+            </div>
+        </div>
+
+        <div class="footerContent grid">
+            <div class="col-1 ">
+                <h1 class="logo">furni.</h1>
+                <p>Optix seamlessly connect your members with the community, resources.</p>
+
+                <div class="socials">
+                    <i class='bx bxl-meta socialIcon'></i>
+                    <i class='bx bxl-twitter socialIcon'></i>
+                    <i class='bx bxl-linkedin socialIcon' ></i>
+                    <i class='bx bxl-pinterest socialIcon' ></i>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>Services</h4>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Press</li>
+                    <li>Payrol</li>
+                    <li>Library</li>
+                    <li>Blog</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Resources</h4>
+                <ul>
+                    <li>Pricing</li>
+                    <li>Your Rights</li>
+                    <li>Contact Support</li>
+                    <li>Affiliation</li>
+                    <li>Terms</li>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Entity types</h4>
+                <ul>
+                    <li>Knowledge</li>
+                    <li>Security</li>
+                    <li>Privacy Policy</li>
+                    <li>partners</li>
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyRight">
+            <p> &copy; All Rights Reserved IsraTech</p>
+        </div>
+
+        <div class="bottomIcon ">
+            <a href=" #Home">  <i class='bx bx-up-arrow-alt icon'></i></a>
+          </div>
+    </div>
+
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
